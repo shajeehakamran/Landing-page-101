@@ -9,12 +9,27 @@
     background-position: right;
 }
 #navbar{
+    display: flex;
+}
+#web{
+  font-family: "Chela One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  height: 30px;
+  width: 160px;
+  font-size: 241%;
+  position: relative;
+  top: 2px;
+  left: 10px;
+}
+#navbar{
     background-color: rgb(24, 189, 186);
     overflow-x: hidden;
 }
 #navbar a{
     color: rgb(29, 26, 58);
-    float: right;
+    float: inline-end;
     padding: 15px;
     text-align: center;
     text-decoration: none;
@@ -25,10 +40,59 @@
 }
 .box{
     width: 60px;
-    margin-left: 20px;
+    margin-left: 10px;
     height: 20px;
 }
+input {
+  height: 15px;
+  padding: 10px;
+  width: 195px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  position: relative;
+  left: 20%;
+  margin-top: 2%;
+}
+#bb{
+  width: 89px;
+  height: 38px;
+  padding: 10px;
+  background-color:rgb(32, 131, 130);
+  color: white;
+  border: none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  left: 19%;
+  font-size: 13px;
+}
+button:hover {
+  background-color: aquamarine;
+  color: black;
+}
+#but{
+    position: relative;
+    left: 9%;
+    width: 120px;
+    height: 38px;
+    background-color: rgb(32, 131, 130);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 8px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+#but:hover {
+    background-color: rgb(72, 177, 142);
+    color: black;
+}
 #heading{
+    width: 90%;
     position: relative;
     left: 10%;
     text-align: left;
@@ -42,34 +106,8 @@
     height: 130px;
     position: relative;
     left: 10%;
-    margin-top: 1%;
+    margin-top: 2%;
     color: rgb(5, 47, 47);
-}
-input {
-  height: 28px;
-  padding: 10px;
-  width: 440px;
-  border: 1px solid #ccc;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-  position: relative;
-  left: -10%;
-}
-button {
-  width: 180px;
-  height: 50px;
-  padding: 10px;
-  background-color:rgb(24, 189, 186);
-  color: white;
-  border: none;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  cursor: pointer;
-  position: relative;
-  left: -15%;
-}
-button:hover {
-  background-color: gray;
 }
 form {
   text-align: center;
