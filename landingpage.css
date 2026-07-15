@@ -46,7 +46,7 @@
 input {
   height: 15px;
   padding: 10px;
-  width: 120px;
+  width: 160px;
   border: 1px solid #ccc;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -55,7 +55,7 @@ input {
   margin-top: 2%;
 }
 #bb{
-  width: 89px;
+  width: 105px;
   height: 38px;
   padding: 10px;
   background-color:rgb(32, 131, 130);
