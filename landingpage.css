@@ -40,18 +40,18 @@
 }
 .box{
     width: 60px;
-    margin-left: 10px;
+    margin-left: 0px;
     height: 20px;
 }
 input {
   height: 15px;
   padding: 10px;
-  width: 195px;
+  width: 120px;
   border: 1px solid #ccc;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   position: relative;
-  left: 20%;
+  left: 10%;
   margin-top: 2%;
 }
 #bb{
@@ -65,7 +65,7 @@ input {
   border-bottom-right-radius: 30px;
   cursor: pointer;
   position: relative;
-  left: 19%;
+  left: 5%;
   font-size: 13px;
 }
 button:hover {
@@ -74,7 +74,7 @@ button:hover {
 }
 #but{
     position: relative;
-    left: 9%;
+    left: 4%;
     width: 120px;
     height: 38px;
     background-color: rgb(32, 131, 130);
